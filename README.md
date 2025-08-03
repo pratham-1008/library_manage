@@ -1,0 +1,1 @@
+An Android-based Library Management System for admins to manage books, users, and issue/return records. Built using Android Studio and SQLite, the app simplifies library tasks like tracking books, calculating fines, and managing data digitally.
