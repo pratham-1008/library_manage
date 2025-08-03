@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    android:background="@drawable/loginback3">
+
+    <!-- Add Student Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        style="@style/loginButton"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Student"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+
+    <!-- Add Book Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+    <!-- View Books Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Books"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+    <!-- View Fines Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewFines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Fines"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+    <!-- View Issued Books Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewIssuedBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Issued Books"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+    <!-- Issue Book Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIssueBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Issue Book"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+    <!-- View Paid Fines Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnViewPaidFines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Paid Fines"
+        style="@style/loginButton"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="6dp"
+        android:layout_gravity="center"/>
+
+ <androidx.appcompat.widget.AppCompatImageButton
+     android:layout_gravity="end"
+
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     style="@style/refresh"
+     android:src="@drawable/iconsrefresh"
+    android:id="@+id/refresh"/>
+</LinearLayout>

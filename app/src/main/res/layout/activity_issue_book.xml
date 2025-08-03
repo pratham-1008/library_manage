@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/loginback3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:background="@drawable/ic_login_bk"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Issue Book" />
+
+        <TextView
+            android:id="@+id/student_id_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID" />
+
+        <EditText
+            android:id="@+id/student_id"
+            style="@style/modifiedEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student ID"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/student_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+
+
+            />
+
+        <EditText
+            android:id="@+id/student_name"
+            style="@style/modifiedEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student Name" />
+
+        <TextView
+            android:id="@+id/book_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name" />
+
+        <EditText
+            android:id="@+id/book_name"
+            style="@style/modifiedEditText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Book Name" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="15dp"
+            android:id="@+id/issue_book_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/loginButton"
+            android:text="Issue Book" />
+    </LinearLayout>
+
+</LinearLayout>
